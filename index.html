@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta Tags -->
+  <title>JYOTHISH M | Data Analyst & Software Developer</title>
+  <meta name="description" content="Official personal portfolio of Jyothish M, a passionate Data Analyst & Software Developer turning raw data into actionable insights with Python, SQL, Excel, Power BI, and EDA." />
+  <meta name="keywords" content="Jyothish M, Data Analyst, Python, SQL, Excel, Power BI, EDA, Exploratory Data Analysis, Portfolio" />
+  <meta name="author" content="Jyothish M" />
+
+  <!-- Google Fonts (Outfit & Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Font Awesome 6 Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow top-left"></div>
+  <div class="ambient-glow bottom-right"></div>
+
+  <!-- ========================================================================
+       1. NAVIGATION BAR
+       ======================================================================== -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+    <div class="container">
+      <!-- Brand Logo / Name -->
+      <a class="navbar-brand" href="#home">
+        <span class="brand-badge">JM</span>
+        <span>JYOTHISH <span class="text-gradient">M</span></span>
+      </a>
+
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a href="#contact" class="btn btn-sm btn-glow-primary">
+              <i class="fa-solid fa-paper-plane"></i> Let's Talk
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       2. HERO SECTION
+       ======================================================================== -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Hero Text Content -->
+        <div class="col-lg-7 text-center text-lg-start">
+          <!-- Availability Status Pill -->
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span>Available for Data Analyst Roles & Business Analytics Projects</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br />
+            <span class="text-gradient">JYOTHISH M</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            I am a <span id="typingRole" class="hero-typing-role">DATA ANALYST</span>
+          </div>
+
+          <p class="hero-description">
+            Passionate Data Analyst dedicated to transforming complex, unstructured datasets into clear visual stories, actionable business intelligence, and data-backed growth strategies using Python, SQL, Excel, Power BI, and Exploratory Data Analysis (EDA).
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+            <a href="#projects" class="btn-glow-primary">
+              <i class="fa-solid fa-chart-pie"></i> View My Work
+            </a>
+            <a href="#contact" class="btn-glow-outline">
+              <i class="fa-regular fa-envelope"></i> Contact Me
+            </a>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="hero-social-links justify-content-center justify-content-lg-start">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn Profile" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn-icon" title="Instagram Profile" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:jyothish.analytics@example.com" class="btn-icon" title="Email Jyothish" aria-label="Email">
+              <i class="fa-solid fa-at"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Profile Image & Floating Cards -->
+        <div class="col-lg-5 text-center">
+          <div class="hero-image-wrapper">
+            <!-- Glowing backdrop aura -->
+            <div class="hero-image-backdrop"></div>
+
+            <!-- Main Image Card -->
+            <div class="hero-image-card">
+              <img src="assets/images/profile.jpg" alt="Jyothish M - Data Analyst" class="hero-profile-img" />
+            </div>
+
+            <!-- Floating Badge Top: Data Analytics & SQL -->
+            <div class="floating-badge badge-top">
+              <i class="fa-solid fa-database text-gradient-blue"></i>
+              <div class="text-start">
+                <div class="badge-label">Expertise</div>
+                <div class="badge-val">SQL & Python</div>
+              </div>
+            </div>
+
+            <!-- Floating Badge Bottom: Power BI & EDA -->
+            <div class="floating-badge badge-bottom">
+              <i class="fa-solid fa-chart-line text-gradient-purple"></i>
+              <div class="text-start">
+                <div class="badge-label">Insights</div>
+                <div class="badge-val">Power BI & EDA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       3. ABOUT ME SECTION
+       ======================================================================== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-user-gear"></i> Get To Know Me</span>
+        <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+        <p class="section-subtitle">
+          A results-driven Data Analyst focused on discovering hidden patterns, optimizing operations, and communicating complex insights through intuitive visual dashboards.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <!-- Personal Introduction & Story -->
+        <div class="col-lg-7">
+          <div class="glass-card">
+            <h3 class="h4 mb-3 text-gradient-blue"><i class="fa-solid fa-magnifying-glass-chart me-2"></i> Who I Am</h3>
+            <p class="text-muted mb-3">
+              Hello! I'm <strong>Jyothish M</strong>, an enthusiastic and analytical problem-solver specializing in <strong>Data Analytics and Business Intelligence</strong>. I bridge the gap between raw data and business decision-makers by cleansing data, performing deep exploratory data analysis (EDA), and creating dynamic dashboards.
+            </p>
+            <p class="text-muted mb-4">
+              My technical core includes writing complex queries in <strong>SQL</strong>, automating data cleaning pipelines with <strong>Python (Pandas, NumPy)</strong>, building interactive reporting dashboards in <strong>Power BI & Microsoft Excel</strong>, and statistical visualization using Matplotlib & Seaborn.
+            </p>
+
+            <h4 class="h5 mb-3 text-gradient-purple"><i class="fa-solid fa-bullseye me-2"></i> Career Goals</h4>
+            <p class="text-muted mb-4">
+              My goal is to join a progressive data-driven organization where I can contribute to predictive insights, optimize key performance indicators (KPIs), master machine learning workflows, and empower executive leadership with high-conviction decision support.
+            </p>
+
+            <!-- Key Highlights / Pill Tags -->
+            <div>
+              <span class="feature-pill"><i class="fa-solid fa-check-circle"></i> Exploratory Data Analysis (EDA)</span>
+              <span class="feature-pill"><i class="fa-solid fa-check-circle"></i> SQL Query Optimization</span>
+              <span class="feature-pill"><i class="fa-solid fa-check-circle"></i> Power BI Dashboards</span>
+              <span class="feature-pill"><i class="fa-solid fa-check-circle"></i> Advanced Excel & Pivot Tables</span>
+              <span class="feature-pill"><i class="fa-solid fa-check-circle"></i> Data Storytelling</span>
+              <span class="feature-pill"><i class="fa-solid fa-check-circle"></i> Git Version Control</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Stats & Highlights Sidebar -->
+        <div class="col-lg-5">
+          <div class="row g-3 h-100">
+            <div class="col-6">
+              <div class="stat-box h-100 d-flex flex-column justify-content-center">
+                <div class="stat-number text-gradient">100K+</div>
+                <div class="stat-label">Data Records Analyzed</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-box h-100 d-flex flex-column justify-content-center">
+                <div class="stat-number text-gradient-blue">5+</div>
+                <div class="stat-label">Core Analytics Tools</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-box h-100 d-flex flex-column justify-content-center">
+                <div class="stat-number text-gradient-purple">100%</div>
+                <div class="stat-label">Data Accuracy & Integrity</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-box h-100 d-flex flex-column justify-content-center">
+                <div class="stat-number text-gradient">3+</div>
+                <div class="stat-label">Production Projects Built</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="glass-card text-center p-3">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                  <div class="btn-icon">
+                    <i class="fa-solid fa-laptop-code text-gradient-blue"></i>
+                  </div>
+                  <div class="text-start">
+                    <div class="fw-bold">Ready for New Opportunities</div>
+                    <small class="text-muted">Open for Data Analyst, BI & Analytics Roles</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       4. SKILLS SECTION
+       ======================================================================== -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-chart-column"></i> Analytical Toolkit</span>
+        <h2 class="section-title">My Technical <span class="text-gradient">Skills</span></h2>
+        <p class="section-subtitle">
+          Core technologies, analytical methodologies, and visualization tools I use to extract and present business intelligence.
+        </p>
+      </div>
+
+      <!-- Skills Grid (Cards with Icon, Name, Level & Progress Bar) -->
+      <div class="row g-4">
+        <!-- 1. PYTHON -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-brands fa-python icon-python"></i>
+            </div>
+            <div class="skill-name">PYTHON</div>
+            <div class="skill-level-text">Advanced • 90%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. SQL -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-database icon-sql"></i>
+            </div>
+            <div class="skill-name">SQL</div>
+            <div class="skill-level-text">Advanced • 92%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 92%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. EXCEL -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-file-excel icon-excel"></i>
+            </div>
+            <div class="skill-name">EXCEL</div>
+            <div class="skill-level-text">Proficient • 95%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 95%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. POWER BI -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-chart-simple icon-powerbi"></i>
+            </div>
+            <div class="skill-name">POWER BI</div>
+            <div class="skill-level-text">Proficient • 88%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 88%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. EDA (Exploratory Data Analysis) -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-magnifying-glass-chart icon-eda"></i>
+            </div>
+            <div class="skill-name">EDA</div>
+            <div class="skill-level-text">Advanced • 90%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. PANDAS & NUMPY -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-table-cells-large icon-pandas"></i>
+            </div>
+            <div class="skill-name">Pandas & NumPy</div>
+            <div class="skill-level-text">Proficient • 88%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 88%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. DATA VISUALIZATION -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-chart-line icon-stats"></i>
+            </div>
+            <div class="skill-name">Data Visualization</div>
+            <div class="skill-level-text">Proficient • 85%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. GIT & GITHUB -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-brands fa-git-alt icon-git"></i>
+            </div>
+            <div class="skill-name">Git & GitHub</div>
+            <div class="skill-level-text">Intermediate • 80%</div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       5. PROJECTS SECTION
+       ======================================================================== -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-folder-open"></i> Portfolio Showcase</span>
+        <h2 class="section-title">My Featured <span class="text-gradient">Projects</span></h2>
+        <p class="section-subtitle">
+          Real-world data analytics and software applications built with precision, insight, and user-centric design.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- PROJECT 1: EDA PROJECT -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-eda.jpg" alt="EDA PROJECT - Exploratory Data Analysis" class="project-img" />
+              <span class="project-badge-pill">Analytics & EDA</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">EDA PROJECT</h3>
+              <p class="project-desc">
+                An end-to-end Exploratory Data Analysis project uncovering key business trends, customer segmentation, correlation heatmaps, missing value imputation, and predictive indicators on large-scale datasets.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+                <span class="tech-tag">EDA</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-glow-outline">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+                <button type="button" class="btn btn-glow-primary" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: AutoResq - Mechanic Assistance App -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-autoresq.jpg" alt="AutoResq - Mechanic Assistance App" class="project-img" />
+              <span class="project-badge-pill">On-Demand / Geolocation</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AutoResq</h3>
+              <p class="project-desc">
+                An on-demand emergency roadside assistance application connecting vehicle drivers with nearby certified mechanics and tow trucks via live GPS tracking with service demand data analytics.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Google Maps</span>
+                <span class="tech-tag">Geolocation</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Analytics</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-glow-outline">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+                <button type="button" class="btn btn-glow-primary" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: Blessing - Islamic Tracker -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-blessing.jpg" alt="Blessing - Islamic Tracker" class="project-img" />
+              <span class="project-badge-pill">Lifestyle / Utilities</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Blessing - Islamic Tracker</h3>
+              <p class="project-desc">
+                An all-in-one spiritual lifestyle tracker offering exact GPS prayer times, real-time Qibla compass, daily Quranic verses, Tasbeeh counter, and habit tracking analytics.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">SQLite</span>
+                <span class="tech-tag">Prayer API</span>
+                <span class="tech-tag">Sensors</span>
+                <span class="tech-tag">Clean Arch</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-glow-outline">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+                <button type="button" class="btn btn-glow-primary" data-bs-toggle="modal" data-bs-target="#projectModal3">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       PROJECT DETAILS MODALS
+       ======================================================================== -->
+  <!-- Modal 1: EDA PROJECT -->
+  <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h5" id="projectModal1Label">
+            <i class="fa-solid fa-magnifying-glass-chart text-gradient-blue me-2"></i> EDA PROJECT - Exploratory Data Analysis
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/images/project-eda.jpg" alt="EDA Project Preview" class="img-fluid rounded-4 mb-3 border border-secondary" />
+          <h6 class="text-gradient fw-bold">Overview & Analysis Highlights</h6>
+          <p class="text-muted">
+            The EDA Project focuses on extracting profound statistical insights from comprehensive transactional and consumer datasets. By conducting data cleansing, outlier detection, and correlation testing, the project empowers stakeholders to identify revenue drivers and churn indicators.
+          </p>
+          <ul class="text-muted small">
+            <li><strong>Data Cleaning & Wrangling:</strong> Handled missing data entries, normalized numeric distributions, and filtered anomalous outliers using Python (Pandas/NumPy).</li>
+            <li><strong>Feature Correlation Heatmap:</strong> Evaluated multi-variable collinearity to detect key drivers impacting conversion and retention rates.</li>
+            <li><strong>Distribution & Trend Analysis:</strong> Generated frequency histograms, box plots, and time-series line graphs with Seaborn & Matplotlib.</li>
+            <li><strong>Actionable Insights & KPI Reporting:</strong> Compiled executive summary dashboards in Power BI and Excel Pivot reports.</li>
+          </ul>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <span class="text-muted small"><i class="fa-solid fa-chart-simple me-1"></i> Python • Pandas • SQL • Power BI</span>
+          <div>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-glow-outline me-2">
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+            <button type="button" class="btn btn-sm btn-glow-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: AutoResq -->
+  <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h5" id="projectModal2Label">
+            <i class="fa-solid fa-wrench text-gradient-blue me-2"></i> AutoResq - Mechanic Assistance
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/images/project-autoresq.jpg" alt="AutoResq Preview" class="img-fluid rounded-4 mb-3 border border-secondary" />
+          <h6 class="text-gradient fw-bold">Overview & Key Features</h6>
+          <p class="text-muted">
+            AutoResq addresses roadside emergencies such as tire punctures, dead batteries, and engine breakdowns by finding the closest certified mechanic in real time.
+          </p>
+          <ul class="text-muted small">
+            <li><strong>Live Driver & Mechanic Tracking:</strong> Real-time GPS location updates powered by Google Maps API.</li>
+            <li><strong>Service Estimation & In-App Chat:</strong> Transparent upfront pricing and direct driver-to-mechanic calling.</li>
+            <li><strong>SOS Emergency Button:</strong> One-tap SOS that broadcasts coordinates to local emergency contacts.</li>
+          </ul>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <span class="text-muted small"><i class="fa-solid fa-map-location-dot me-1"></i> Google Maps • Geolocation • Flutter</span>
+          <div>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-glow-outline me-2">
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+            <button type="button" class="btn btn-sm btn-glow-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Blessing -->
+  <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h5" id="projectModal3Label">
+            <i class="fa-solid fa-moon text-gradient-blue me-2"></i> Blessing - Islamic Tracker
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/images/project-blessing.jpg" alt="Blessing Preview" class="img-fluid rounded-4 mb-3 border border-secondary" />
+          <h6 class="text-gradient fw-bold">Overview & Key Features</h6>
+          <p class="text-muted">
+            Blessing is an elegant, privacy-first mobile companion designed with a dark luxury aesthetic to help users stay consistent with daily prayers and Quranic reflection.
+          </p>
+          <ul class="text-muted small">
+            <li><strong>Accurate Prayer Times:</strong> Calculated automatically using device GPS coordinates and multiple global calculation methods.</li>
+            <li><strong>Smooth Qibla Compass:</strong> Gyroscope and magnetometer sensor fusion for precise Kaaba orientation.</li>
+            <li><strong>Habit & Streak Tracker:</strong> Offline SQLite persistence tracking prayer consistency over days and weeks.</li>
+            <li><strong>Digital Tasbeeh:</strong> Haptic-feedback driven Dhikr counter.</li>
+          </ul>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <span class="text-muted small"><i class="fa-solid fa-compass me-1"></i> SQLite • Local Notifications • Flutter</span>
+          <div>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-glow-outline me-2">
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+            <button type="button" class="btn btn-sm btn-glow-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       6. EDUCATION & TIMELINE SECTION
+       ======================================================================== -->
+  <section id="education" class="section-padding">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Pathway</span>
+        <h2 class="section-title">Education & <span class="text-gradient">Training</span></h2>
+        <p class="section-subtitle">
+          My academic foundation, specialized data analytics diplomas, and ongoing technical education.
+        </p>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline-wrapper">
+        <!-- Item 1: Data Analytics Specialization -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2024 - 2025</span>
+            <h3 class="timeline-title">Data Analytics & Business Intelligence Certification</h3>
+            <div class="timeline-institution">
+              <i class="fa-solid fa-building-columns"></i> Advanced Tech Institute
+            </div>
+            <p class="timeline-desc">
+              Intensive hands-on training focusing on Python data science libraries (Pandas, NumPy, Seaborn), SQL database querying and performance, Power BI interactive dashboard design, Advanced Excel, and real-world Exploratory Data Analysis (EDA).
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 2: Undergraduate Degree -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2021 - 2024</span>
+            <h3 class="timeline-title">Bachelor's Degree in Computer Science / Applications</h3>
+            <div class="timeline-institution">
+              <i class="fa-solid fa-university"></i> University Graduate Program
+            </div>
+            <p class="timeline-desc">
+              Comprehensive coursework covering Database Management Systems (SQL), Applied Mathematics & Statistics, Python Programming, Data Structures, Web Development, and Software Engineering methodologies.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 3: Higher Secondary -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2019 - 2021</span>
+            <h3 class="timeline-title">Higher Secondary Education (Computer Science & Mathematics)</h3>
+            <div class="timeline-institution">
+              <i class="fa-solid fa-school"></i> State Higher Secondary Board
+            </div>
+            <p class="timeline-desc">
+              Specialized in Computer Science, Mathematics, and Physics with foundational problem solving and statistical analytical thinking.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       7. CONTACT SECTION
+       ======================================================================== -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-envelope-open-text"></i> Let's Connect</span>
+        <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+        <p class="section-subtitle">
+          Have an analytics opportunity, business problem, or want to collaborate on a data project? Send me a message!
+        </p>
+      </div>
+
+      <div class="row g-5 align-items-stretch">
+        <!-- Contact Info Cards -->
+        <div class="col-lg-5">
+          <div class="h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h3 class="h4 mb-4 text-gradient-blue">Direct Contact Details</h3>
+
+              <!-- Email Card -->
+              <div class="contact-info-card">
+                <div class="contact-icon-box">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <div class="text-muted small">Email Me</div>
+                  <a href="mailto:jyothish.analytics@example.com" class="fw-bold text-white">jyothish.analytics@example.com</a>
+                </div>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-info-card">
+                <div class="contact-icon-box">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="text-muted small">Location</div>
+                  <div class="fw-bold text-white">Kerala, India (Open to Remote / Relocation)</div>
+                </div>
+              </div>
+
+              <!-- Phone / WhatsApp Card -->
+              <div class="contact-info-card">
+                <div class="contact-icon-box">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <div class="text-muted small">WhatsApp / Mobile</div>
+                  <a href="tel:+919876543210" class="fw-bold text-white">+91 98765 43210</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Buttons Box -->
+            <div class="glass-card p-4 text-center mt-3">
+              <div class="fw-bold mb-3">Connect on Social Channels</div>
+              <div class="d-flex justify-content-center gap-3">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="contact-form-card">
+            <h3 class="h4 mb-4">Send a Message</h3>
+
+            <!-- Alert Placeholder for JS Form Feedback -->
+            <div id="contactFormAlert" class="alert d-none" role="alert"></div>
+
+            <form id="portfolioContactForm" novalidate>
+              <div class="row g-3">
+                <!-- Name Field -->
+                <div class="col-md-6">
+                  <label for="senderName" class="form-label">Your Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="senderName" placeholder="e.g. Alex Hunter" required />
+                  <div class="invalid-feedback">Please provide your name.</div>
+                </div>
+
+                <!-- Email Field -->
+                <div class="col-md-6">
+                  <label for="senderEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="senderEmail" placeholder="e.g. alex@example.com" required />
+                  <div class="invalid-feedback">Please provide a valid email address.</div>
+                </div>
+
+                <!-- Subject Field -->
+                <div class="col-12">
+                  <label for="msgSubject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="msgSubject" placeholder="e.g. Data Analytics / Power BI Opportunity" />
+                </div>
+
+                <!-- Message Field -->
+                <div class="col-12">
+                  <label for="senderMessage" class="form-label">Your Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="senderMessage" rows="5" placeholder="Hi Jyothish, I'd like to discuss an analytics project..." required></textarea>
+                  <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12 mt-4">
+                  <button type="submit" id="submitFormBtn" class="btn-glow-primary w-100 justify-content-center">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- Beginner Guidance: Backend Note -->
+            <div class="backend-notice-banner">
+              <div class="d-flex align-items-start gap-2">
+                <i class="fa-solid fa-circle-info text-info mt-1"></i>
+                <div>
+                  <strong>Developer Note (For Beginners):</strong> This contact form includes client-side JavaScript validation. To receive live emails directly to your inbox without writing your own backend server, integrate a free service like <a href="https://formspree.io" target="_blank" rel="noopener noreferrer" class="text-gradient-blue fw-bold">Formspree</a> or <a href="https://www.emailjs.com" target="_blank" rel="noopener noreferrer" class="text-gradient-blue fw-bold">EmailJS</a> by updating the form <code>action</code> attribute.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       8. FOOTER
+       ======================================================================== -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <!-- Brand Info -->
+        <div class="col-md-4 text-center text-md-start">
+          <div class="footer-brand">
+            <span class="text-gradient">JYOTHISH M</span>
+          </div>
+          <p class="text-muted small mb-0">
+            Data Analyst transforming data into actionable insights, visual dashboards, and strategic growth.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4 text-center">
+          <ul class="footer-nav justify-content-center">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Icons in Footer -->
+        <div class="col-md-4 text-center text-md-end">
+          <div class="d-inline-flex gap-2">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <!-- Copyright Bottom Bar -->
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 footer-bottom-text">
+        <div>
+          &copy; <span id="currentYear"></span> <strong>JYOTHISH M</strong>. All rights reserved.
+        </div>
+        <div>
+          Crafted with <i class="fa-solid fa-heart text-danger"></i> using Bootstrap 5 & Vanilla JS
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       9. FLOATING BACK TO TOP BUTTON
+       ======================================================================== -->
+  <button id="backToTopBtn" class="back-to-top-btn" title="Back to top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================================================
+       10. SCRIPTS
+       ======================================================================== -->
+  <!-- Bootstrap 5 Bundle JS CDN (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
